@@ -22,16 +22,12 @@
       <label for="salary">Salary Requirement (as a number):</label>
       <input id="salary" type="text" name="salary"></br>
 
-      <fieldset>
-      <legend>Which position are you applying for?</legend>
-        <input id="software-engineer" type="radio" name="job" value="software-engineer">
-        <label for="software-engineer">Software Engineer</label><br>
-        
-        <input id="qa-engineer" type="radio" name="job" value="qa-engineer">
-        <label for="qa-engineer">QA Engineer</label><br>
-        
-        <input id="product-manager" type="radio" name="job" value="product-manager">
-        <label for="product-manager">Product Manager</label><br>
+      <label for="job">Which position would you like to apply for?</label>
+        <select id="job" name="select">
+        <option value="1">Software Engineer</option>
+        <option value="2">QA Engineer</option>
+        <option value="3">Product Manager</option>
+        </select>
         
       <input type="submit" name="submit" value="Submit">
   </form>
